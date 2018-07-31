@@ -1,0 +1,34 @@
+@media screen and (max-width: 1600px) {
+    .left-bar {width: 280px;}
+    .wrapper {margin-left: 280px;}
+    .fw {padding: 0 32px;}
+    
+    /*contracts*/
+    .contract-table table th {padding: 0 15px 15px 22px; font-size: 15px;}
+    .contract-table table td {padding: 18px 15px 18px 22px; font-size: 15px;}
+    .t-name, .t-date, a.t-lnk, .t-lnk {font-size: 15px;}
+    ul.t-contract-list li, ul.t-info-list li {font-size: 15px;}
+    .contract-table table th:nth-child(1), .contract-table table td:nth-child(1) {width: 200px;}
+    .contract-table table th:nth-child(2), .contract-table table td:nth-child(2) {width: 200px;}
+    .contract-table table th:nth-child(3), .contract-table table td:nth-child(3) {width: 260px;}
+    .contract-table table th:nth-child(4), .contract-table table td:nth-child(4) {width: 280px;}
+    .contract-table table th:nth-child(5), .contract-table table td:nth-child(5) {width: 120px;}
+    .contract-table table th:nth-child(6), .contract-table table td:nth-child(6) {width: 160px;}
+    
+    tr {
+        &.removed {
+            td {
+                padding: 18px 22px !important;
+                .rec-text, .rec-btn span {
+                    font-size: 15px !important;
+                }
+            }
+        }
+    }
+    
+    .column-lt {float: none; width: auto;}
+    .column-rt {float: none; width: auto;}
+    
+    .inner-tabs .tab-menu {padding: 22px 0 0 22px;}
+    .inner-tabs .tab-menu ul li a {padding: 0 34px; font-size: 18px;}
+}

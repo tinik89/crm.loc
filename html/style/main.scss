@@ -1,0 +1,42 @@
+/*
+* HELPERS
+*/
+
+@import "helpers/variables";
+@import "helpers/mixins";
+
+/*
+* BASE
+*/
+
+@import "base/base";
+
+/*
+* PLUGINS
+*/
+
+@import "plugins/fancybox";
+@import "plugins/owl-carousel";
+@import "plugins/animate";
+@import "plugins/form-styler";
+@import "plugins/jquery.mswitch";
+
+/*
+* LAYOUT
+*/
+
+@import "layout/header";
+@import "layout/footer";
+
+/*
+* PAGES
+*/
+
+@import "pages/home";
+@import "pages/inner";
+
+/*
+* RESPONSIVE
+*/
+
+@import "components/responsive";
